@@ -1,13 +1,6 @@
 package Logic;
 
-import View.myInterface;
-import java.awt.BorderLayout;
-import java.awt.EventQueue;
-
-import javax.swing.JFrame;
-import java.awt.*;
-import java.awt.geom.*;
-import javax.swing.*;
+import View.Interface;
 /**
  * Created with IntelliJ IDEA.
  * User: katch
@@ -17,8 +10,6 @@ import javax.swing.*;
  */
 public class Main {
     public static void main(String[] args) {
-
-        myInterface myint = new myInterface();
-        myint.setVisible(true);
+        new Interface().setVisible(true);
     }
 }
