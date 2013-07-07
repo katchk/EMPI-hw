@@ -1,6 +1,9 @@
 package Logic;
 
 import View.Interface;
+
+import javax.swing.*;
+
 /**
  * Created with IntelliJ IDEA.
  * User: katch
@@ -10,6 +13,11 @@ import View.Interface;
  */
 public class Main {
     public static void main(String[] args) {
-        new Interface().setVisible(true);
+        SwingUtilities.invokeLater(new Runnable() {
+            @Override
+            public void run() {
+                new Interface();
+            }
+        });
     }
 }
