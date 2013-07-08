@@ -2,8 +2,13 @@ package View;
 
 import javax.swing.*;
 import javax.swing.table.AbstractTableModel;
+import javax.swing.table.DefaultTableModel;
+import javax.swing.table.TableColumn;
 import javax.swing.table.TableModel;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.util.Vector;
 
 /**
  * Created with IntelliJ IDEA.
@@ -17,6 +22,7 @@ public class Interface {
     JTable mainTable;
     JTabbedPane grTabPane;
     JButton calcButton;
+    JButton addRowBtn;
     JScrollPane jScrollPane;
 
 
@@ -36,14 +42,16 @@ public class Interface {
                 615 + insets.top + insets.bottom);
         jFrame.setTitle("Statistical Analysis");
         jFrame.getContentPane().setLayout(null);
-
-        mainMenuBar = new JMenuBar();
-        mainTable = new JTable(data, headers);
+        MenuBar mb = new MenuBar();
+        mainMenuBar = mb.createMenuBar();
+        final View.TableModel tableModel = new View.TableModel();
+        mainTable = new JTable(tableModel);
         grTabPane = new JTabbedPane();
         calcButton = new JButton("Calculating");
+        addRowBtn = new JButton("Add Row");
 
         Dimension size = mainMenuBar.getPreferredSize();
-        mainMenuBar.setBounds(insets.left, insets.top, size.width + 630, size.height + 25 );
+        mainMenuBar.setBounds(insets.left, insets.top, size.width + 630, size.height + 5 );
 
         size = grTabPane.getPreferredSize();
         grTabPane.setBounds(1 + insets.left, 318 + insets.top, size.width+630, size.height + 250);
@@ -51,6 +59,15 @@ public class Interface {
         size = calcButton.getPreferredSize();
         calcButton.setBounds(1 + insets.left, 282 + insets.top, size.width+40, size.height + 8);
 
+        size = addRowBtn.getPreferredSize();
+        addRowBtn.setBounds(300 + insets.left, 282 + insets.top, size.width+30, size.height + 8);
+
+        addRowBtn.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                tableModel.addRow(new Vector());
+            }
+        });
 
         jScrollPane = new JScrollPane(mainTable);
 
@@ -58,9 +75,11 @@ public class Interface {
         jScrollPane.setBounds(1 + insets.left, 28 + insets.top, size.width + 630, size.height + 250);
         jScrollPane.setSize(new Dimension(630, 250));
 
+
         jFrame.getContentPane().add(mainMenuBar);
         jFrame.getContentPane().add(grTabPane);
         jFrame.getContentPane().add(calcButton);
+        jFrame.getContentPane().add(addRowBtn);
         jFrame.getContentPane().add(jScrollPane);
         jFrame.setVisible(true);
 
