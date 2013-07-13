@@ -9,9 +9,12 @@ import java.util.Vector;
  * To change this template use File | Settings | File Templates.
  */
 public class TableModel extends DefaultTableModel {
-    Vector<String> columnNames = new Vector<String>();
+    private static String[] columnName = {"CYC", "LOC", "NOC", "FOUT", "NDD", "CM", "WOC", "FDP"};
+
     public TableModel(){
-        this.setRowCount(30);
-        this.setColumnCount(10);
+        this.setRowCount(25);
+        for(int i = 0; i < columnName.length; i++){
+        this.addColumn(columnName[i]);
+        }
     }
 }

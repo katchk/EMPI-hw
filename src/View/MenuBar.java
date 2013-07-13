@@ -7,10 +7,8 @@ package View;
  * Time: 15:42
  * To change this template use File | Settings | File Templates.
  */
-import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
-import javax.swing.border.*;
 
 public class MenuBar extends JFrame {
     JMenuBar menuBar = new JMenuBar();
