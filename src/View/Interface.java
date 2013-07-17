@@ -1,31 +1,19 @@
 package View;
 
-import Logic.Statistica;
-
+import Logic.SupportFunction;
 import javax.swing.*;
-import javax.swing.table.AbstractTableModel;
-import javax.swing.table.DefaultTableModel;
-import javax.swing.table.TableColumn;
-import javax.swing.table.TableModel;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.Vector;
 
-/**
- * Created with IntelliJ IDEA.
- * User: katch
- * Date: 04.07.13
- * Time: 9:38
- * To change this template use File | Settings | File Templates.
- */
+
 public class Interface {
     JMenuBar mainMenuBar;
-    JTable mainTable;
+    static JTable mainTable;
     JButton calcButton;
     JButton addRowBtn;
     JScrollPane jScrollPane;
-
 
     public Interface(){
         final JFrame jFrame = new JFrame();
@@ -52,12 +40,15 @@ public class Interface {
         calcButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                for (int i = 0; i < mainTable.getColumnCount(); i++){
+                    SupportFunction.SearchForDeviation(mainTable, i);
+                }
                 new ResultPanel(mainTable).setVisible(true);
             }
         });
+
         size = addRowBtn.getPreferredSize();
         addRowBtn.setBounds(140 + insets.left, 458 + insets.top, size.width+30, size.height + 8);
-
         addRowBtn.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -71,15 +62,11 @@ public class Interface {
         jScrollPane.setBounds(1 + insets.left, 28 + insets.top, size.width + 630, size.height + 425);
         jScrollPane.setSize(new Dimension(630, 425));
 
-
         jFrame.getContentPane().add(mainMenuBar);
         jFrame.getContentPane().add(calcButton);
         jFrame.getContentPane().add(addRowBtn);
         jFrame.getContentPane().add(jScrollPane);
-
         jFrame.setVisible(true);
-
-
     }
 
 }

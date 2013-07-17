@@ -3,13 +3,6 @@ package Logic;
 import org.jfree.data.category.DefaultCategoryDataset;
 import java.util.ArrayList;
 
-/**
- * Created with IntelliJ IDEA.
- * User: katch
- * Date: 12.07.13
- * Time: 8:51
- * To change this template use File | Settings | File Templates.
- */
 public class GraphConception {
 
     public static DefaultCategoryDataset CalculateAxisData(double[] array){
@@ -34,7 +27,7 @@ public class GraphConception {
             {
                 if (array[n] != -1)
                 {
-                    if (array[n] > i && array[n] < i + step)// "sum" частота попадания в карман
+                    if (array[n] > i && array[n] < i + step)
                     {
                         sum++;
                     }

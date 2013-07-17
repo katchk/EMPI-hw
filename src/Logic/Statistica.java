@@ -1,18 +1,11 @@
 package Logic;
 
-/**
- * Created with IntelliJ IDEA.
- * User: katch
- * Date: 10.07.13
- * Time: 2:49
- * To change this template use File | Settings | File Templates.
- */
 import java.util.*;
 
 public class Statistica {
 
 
-    public static double Expectation(double[] array) //Математическое ожидание
+    public static double Expectation(double[] array)
     {
         double summa = 0;
         int size = array.length;
@@ -26,7 +19,7 @@ public class Statistica {
         return summa / size;
     }
 
-    public static double Variance(double[] array, double expectation) //Дисперсия
+    public static double Variance(double[] array, double expectation)
     {
         double summa = 0;
         int size = array.length;
@@ -40,7 +33,7 @@ public class Statistica {
         return summa / size;
     }
 
-    public static double Deviation(double[] array, double expectation) //стандартное отклонение
+    public static double Deviation(double[] array, double expectation)
     {
         double summa = 0;
         int size = array.length;
@@ -57,13 +50,13 @@ public class Statistica {
         return Math.sqrt(summa);
     }
 
-    public static double Deviation(double variance) //среднеквадратическое отклонение
+    public static double Deviation(double variance)
     {
         return Math.sqrt(variance);
     }
 
     public static double Asymmetry(double[] array,
-                                   double expectation, double deviation) //коефициент асиметрии
+                                   double expectation, double deviation)
     {
         double summa = 0;
         int size = array.length;
@@ -84,7 +77,7 @@ public class Statistica {
     }
 
     public static double Kurtosis(double[] array, double expectation,
-                                  double deviation) //коефициент ексцеса
+                                  double deviation)
     {
 
         double size = array.length;
@@ -104,7 +97,7 @@ public class Statistica {
     }
 
     public static double Correl(double[] x, double[] y,
-                                double expectationX, double expectationY) //коефициент кореляции
+                                double expectationX, double expectationY)
     {
         if (x.length == y.length)
         {

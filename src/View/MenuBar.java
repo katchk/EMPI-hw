@@ -1,12 +1,5 @@
 package View;
 
-/**
- * Created with IntelliJ IDEA.
- * User: katch
- * Date: 08.07.13
- * Time: 15:42
- * To change this template use File | Settings | File Templates.
- */
 import java.awt.event.*;
 import javax.swing.*;
 

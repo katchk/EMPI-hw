@@ -17,10 +17,10 @@
     </list>
     <ignored path="TestApp.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Interface.java" changelist="37722877-6699-415b-aac6-a08d65f609bc" time="1373509089318" ignored="false" />
+    <file path="/Interface.java" changelist="37722877-6699-415b-aac6-a08d65f609bc" time="1374035517091" ignored="false" />
     <file path="/Main.java" changelist="37722877-6699-415b-aac6-a08d65f609bc" time="1373604765049" ignored="false" />
     <file path="/myInterface.java" changelist="37722877-6699-415b-aac6-a08d65f609bc" time="1373024958100" ignored="false" />
-    <file path="/Dummy.txt" changelist="37722877-6699-415b-aac6-a08d65f609bc" time="1373611475441" ignored="false" />
+    <file path="/Dummy.txt" changelist="37722877-6699-415b-aac6-a08d65f609bc" time="1374036563864" ignored="false" />
     <file path="$PROJECT_DIR$/../TestMenuBar/src/Main.java" changelist="37722877-6699-415b-aac6-a08d65f609bc" time="1373605713518" ignored="false" />
     <file path="$PROJECT_DIR$/../TestMenuBar/src/MenuExampleMouseAdapter.java" changelist="37722877-6699-415b-aac6-a08d65f609bc" time="1373022315613" ignored="false" />
     <file path="/MenuExampleMouseAdapter.java" changelist="37722877-6699-415b-aac6-a08d65f609bc" time="1373022252860" ignored="false" />
@@ -37,11 +37,11 @@
     <file path="$PROJECT_DIR$/../TestMenuBar/src/MyTableModel.java" changelist="37722877-6699-415b-aac6-a08d65f609bc" time="1373312786462" ignored="false" />
     <file path="/MyTableModel.java" changelist="37722877-6699-415b-aac6-a08d65f609bc" time="1373312785741" ignored="false" />
     <file path="/TableModel.java" changelist="37722877-6699-415b-aac6-a08d65f609bc" time="1373608340584" ignored="false" />
-    <file path="/ResultPanel.java" changelist="37722877-6699-415b-aac6-a08d65f609bc" time="1373609898248" ignored="false" />
+    <file path="/ResultPanel.java" changelist="37722877-6699-415b-aac6-a08d65f609bc" time="1373961192640" ignored="false" />
     <file path="/Statistica.java" changelist="37722877-6699-415b-aac6-a08d65f609bc" time="1373419864122" ignored="false" />
     <file path="$PROJECT_DIR$/../TestMenuBar/src/jTabbedPane.java" changelist="37722877-6699-415b-aac6-a08d65f609bc" time="1373502998971" ignored="false" />
     <file path="/jTabbedPane.java" changelist="37722877-6699-415b-aac6-a08d65f609bc" time="1373502880603" ignored="false" />
-    <file path="/SupportFunction.java" changelist="37722877-6699-415b-aac6-a08d65f609bc" time="1373610144695" ignored="false" />
+    <file path="/SupportFunction.java" changelist="37722877-6699-415b-aac6-a08d65f609bc" time="1374037235544" ignored="false" />
     <file path="$PROJECT_DIR$/../TestMenuBar/src/expFrame.java" changelist="37722877-6699-415b-aac6-a08d65f609bc" time="1373506138806" ignored="false" />
     <file path="/expFrame.java" changelist="37722877-6699-415b-aac6-a08d65f609bc" time="1373506119913" ignored="false" />
     <file path="$PROJECT_DIR$/../TestMenuBar/src/dgfdsg.java" changelist="37722877-6699-415b-aac6-a08d65f609bc" time="1373511496548" ignored="false" />
@@ -50,7 +50,8 @@
     <file path="/GraphConception.java" changelist="37722877-6699-415b-aac6-a08d65f609bc" time="1373604769325" ignored="false" />
     <file path="$PROJECT_DIR$/../TestMenuBar/src/GraphConception.java" changelist="37722877-6699-415b-aac6-a08d65f609bc" time="1373604769325" ignored="false" />
     <file path="/fragment.java" changelist="37722877-6699-415b-aac6-a08d65f609bc" time="1373604989477" ignored="false" />
-    <file path="/ChartModel.java" changelist="37722877-6699-415b-aac6-a08d65f609bc" time="1373605327868" ignored="false" />
+    <file path="/ChartModel.java" changelist="37722877-6699-415b-aac6-a08d65f609bc" time="1374049493762" ignored="false" />
+    <file path="/Listener.java" changelist="37722877-6699-415b-aac6-a08d65f609bc" time="1374036852736" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,40 +112,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SupportFunction.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Logic/SupportFunction.java">
+      <file leaf-file-name="Statistica.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Logic/Statistica.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="45" selection-start="1105" selection-end="1105" vertical-scroll-proportion="0.28641975">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GraphConception.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Logic/GraphConception.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="38" selection-start="796" selection-end="796" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#481#489#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Interface.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/View/Interface.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="0" selection-start="1831" selection-end="1831" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TableModel.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/View/TableModel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="4" selection-start="386" selection-end="386" vertical-scroll-proportion="0.0">
+            <state line="1" column="0" selection-start="15" selection-end="15" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -153,26 +124,21 @@
       <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Logic/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="385" selection-end="385" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="6" column="13" selection-start="76" selection-end="76" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ResultPanel.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/View/ResultPanel.java">
+      <file leaf-file-name="GraphConception.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Logic/GraphConception.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="57" selection-start="828" selection-end="828" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChartModel.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/View/ChartModel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="464" selection-end="464" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="11" column="37" selection-start="412" selection-end="412" vertical-scroll-proportion="0.4617284">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -203,15 +169,16 @@
         <option value="$PROJECT_DIR$/src/View/int1.form" />
         <option value="$PROJECT_DIR$/src/View/MenuExampleMouseAdapter.java" />
         <option value="$PROJECT_DIR$/src/View/myInterface.java" />
+        <option value="$PROJECT_DIR$/src/Logic/Listener.java" />
         <option value="$PROJECT_DIR$/src/Logic/Main.java" />
-        <option value="$PROJECT_DIR$/src/Logic/Statistica.java" />
-        <option value="$PROJECT_DIR$/src/View/MenuBar.java" />
-        <option value="$PROJECT_DIR$/src/Logic/GraphConception.java" />
-        <option value="$PROJECT_DIR$/src/View/ChartModel.java" />
-        <option value="$PROJECT_DIR$/src/View/Interface.java" />
         <option value="$PROJECT_DIR$/src/View/TableModel.java" />
+        <option value="$PROJECT_DIR$/src/View/Interface.java" />
+        <option value="$PROJECT_DIR$/src/View/ChartModel.java" />
         <option value="$PROJECT_DIR$/src/View/ResultPanel.java" />
+        <option value="$PROJECT_DIR$/src/Logic/GraphConception.java" />
+        <option value="$PROJECT_DIR$/src/View/MenuBar.java" />
         <option value="$PROJECT_DIR$/src/Logic/SupportFunction.java" />
+        <option value="$PROJECT_DIR$/src/Logic/Statistica.java" />
       </list>
     </option>
   </component>
@@ -250,7 +217,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -307,7 +274,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -494,11 +461,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22575757" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31911263" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -509,12 +477,11 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.7201365" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.73549485" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26450512" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21515152" sideWeight="0.73549485" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26450512" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -588,11 +555,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/Program Files/JDK/src.zip!/javax/swing/table/DefaultTableColumnModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="293" column="0" selection-start="10006" selection-end="10006" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="jar://D:/Program Files/JDK/src.zip!/java/util/Vector.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="472" column="0" selection-start="17900" selection-end="17900" vertical-scroll-proportion="0.33114755" />
@@ -601,20 +563,6 @@
     <entry file="jar://D:/Program Files/JDK/src.zip!/javax/swing/table/DefaultTableModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="594" column="0" selection-start="21070" selection-end="21070" vertical-scroll-proportion="0.30981594" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/View/MenuBar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="3" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Logic/Statistica.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="0" selection-start="2543" selection-end="2543" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/lib/jfreechart/lib/jfreechart-1.0.15.jar!/org/jfree/data/general/DatasetGroup.class">
@@ -637,55 +585,74 @@
         <state line="52" column="16" selection-start="2379" selection-end="2379" vertical-scroll-proportion="-2.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/View/TableModel.java">
+    <entry file="file://$PROJECT_DIR$/src/View/MenuBar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="4" selection-start="386" selection-end="386" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Logic/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="385" selection-end="385" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/View/Interface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="0" selection-start="1831" selection-end="1831" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/View/ChartModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="464" selection-end="464" vertical-scroll-proportion="0.0">
+        <state line="1" column="0" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/View/ResultPanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="57" selection-start="828" selection-end="828" vertical-scroll-proportion="0.0">
+        <state line="40" column="8" selection-start="1479" selection-end="1479" vertical-scroll-proportion="1.6790123">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/View/TableModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="13" selection-start="73" selection-end="73" vertical-scroll-proportion="0.16790123">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Logic/GraphConception.java">
+    <entry file="file://$PROJECT_DIR$/src/View/Interface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="38" selection-start="796" selection-end="796" vertical-scroll-proportion="0.0">
+        <state line="58" column="48" selection-start="2178" selection-end="2178" vertical-scroll-proportion="0.16049382">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/View/ChartModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="70" selection-start="251" selection-end="251" vertical-scroll-proportion="0.454321">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#481#489#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Logic/SupportFunction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="45" selection-start="1105" selection-end="1105" vertical-scroll-proportion="0.28641975">
+        <state line="4" column="0" selection-start="66" selection-end="66" vertical-scroll-proportion="0.12592593">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Logic/Statistica.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="15" selection-end="15" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Logic/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="76" selection-end="76" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Logic/GraphConception.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="37" selection-start="412" selection-end="412" vertical-scroll-proportion="0.4617284">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
